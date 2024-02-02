@@ -1,10 +1,15 @@
+import ButtonB from '../elements/ButtonB'
+import styles from './Projects.module.css'
+import Card from '../elements/Card'
+
 function Projects() {
     return (
-        <div id="Projects">
+        <div className={styles.projects} id="Projects">
             <h1>
-                Aqui ficará meus projetos
-                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                Projetos
             </h1>
+            <Card />
+            <ButtonB text='Acesse meu repositório' />
         </div>
     )
 }

@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    width: 500px;
+    margin-right: 50px;
+}
+
+.card img:hover {
+    transform: translateY(-10px);
+}
+
+.div2 {
+    border-radius: 20px;
+    background: rgba(1, 9, 28, 0.75);
+    padding-left: 3%;
+    padding-top: 1%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25, 0.25));
+    width: 35%;
+}
+
+.div2 h3 {
+    font-size: 25px;
+}
