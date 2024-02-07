@@ -1,16 +1,17 @@
 import styles from './Card.module.css'
-import project1 from '../../Images/projects/project1.svg'
 import ButtonB from './ButtonB'
 
-function Card() {
+function Card({ img, title, tech, description, repo, site }) {
     return (
         <div className={styles.card}>
-            <img src={project1} alt="Error"></img>
+            <a href={site} target="_blank">
+                <img src={img} alt="Error"></img>
+            </a>
             <div className={styles.div2}>
-                <h3>Título</h3>
-                <p>Tecnologia</p>
-                <p>Descrição</p>
-                <ButtonB text='Acesse o repositório' />
+                <h3>{title}</h3>
+                <p><strong>Tecnologia: </strong>{tech}</p>
+                <p>{description}</p>
+                <ButtonB text='Acesse o repositório' link={repo} />
             </div>
         </div>
     )
