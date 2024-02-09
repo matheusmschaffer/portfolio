@@ -1,0 +1,26 @@
+.foot {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    align-items: center;
+
+}
+
+.foot ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.foot li {
+    margin: 10px;
+    list-style: none;
+}
+
+.foot a {
+    color: aliceblue !important;
+}
+
+.foot p {
+    margin: 20px;
+}

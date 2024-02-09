@@ -10,7 +10,7 @@ function Projects() {
                 Projetos
             </h1>
             <Card img={project1} title="Projeto DNC" tech="HTML, CSS e JavaScript" description="Projeto desenvolvido no curso DNC" repo="http://www.globo.com" site="http://www.google.com" />
-            <Card />
+
             <ButtonB text='Acesse meu repositório' />ß
         </div>
     )
