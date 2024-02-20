@@ -10,11 +10,15 @@
     height: 140px;
     margin: 25px;
     filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.807));
+    transition-duration: 0.5s;
 }
 
 .skill img:hover {
     filter: drop-shadow(0px 10px 10px rgba(171, 171, 171, 0.461));
     margin: 25px 40px 25px 40px;
+    height: 155px;
+    transform: translateY('-10px');
+    transition-duration: 0.5s;
 }
 
 .skill h1 {
